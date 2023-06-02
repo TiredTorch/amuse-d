@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@amuse-d/amuse-d-frontend-lib": [
+        "libs/amuse-d-frontend-lib/src/index.ts"
+      ],
+      "@amuse-d/shared": ["libs/shared/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
